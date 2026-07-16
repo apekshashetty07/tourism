@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-image:url("rajasthan.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:Georgia, serif;
+}
+
+.overlay{
+
+    width:70%;
+
+    background:rgba(0, 0, 0, 0.15);
+
+    color:white;
+
+    text-align:center;
+
+    padding:60px;
+
+    border-radius:25px;
+
+}
+
+h1{
+
+    font-size:65px;
+
+    letter-spacing:3px;
+
+    margin-bottom:20px;
+
+}
+
+h3{
+
+    font-size:35px;
+
+    color:white;
+
+    margin-bottom:25px;
+
+}
+
+p{
+
+    font-size:24px;
+
+    line-height:1.8;
+
+}
+
+.btn{
+
+    display:inline-block;
+
+    margin-top:40px;
+
+    padding:15px 45px;
+
+    background:#E6A23C;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:30px;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    transition:0.3s;
+
+}
+
+.btn:hover{
+
+    background:#c57d18;
+
+    transform:scale(1.05);
+
+}
