@@ -20,9 +20,9 @@ body{
 
     width:70%;
 
-    background:rgba(0, 0, 0, 0.15);
+    background:rgba(223, 215, 215, 0.121);
 
-    color:white;
+    color:rgb(255, 255, 255);
 
     text-align:center;
 
@@ -54,7 +54,7 @@ h3{
 
 p{
 
-    font-size:24px;
+    font-size:50px;
 
     line-height:1.8;
 
@@ -86,7 +86,7 @@ p{
 
 .btn:hover{
 
-    background:#c57d18;
+    background:#1a1d56;
 
     transform:scale(1.05);
 
