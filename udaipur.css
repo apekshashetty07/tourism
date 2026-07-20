@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Georgia,serif;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url("udaipurbg.jpg");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    color:white;
+}
+.back-btn{
+    display:inline-block;
+    margin: 30px;
+    padding:12px 25px;
+    border:2px solid white;
+    border-radius:30px;
+    color:white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.back-btn:hover{
+    background:white;
+    color:black;
+}
+.container{
+    width:90%;
+    margin:auto;
+    text-align:center;
+}
+.container h1{
+    font-size:60px;
+    margin-top:20px;
+}
+.subtitle{
+    font-size:60px;
+    margin:20px 0 50px;
+}
+.places{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-bottom:60px;
+}
+.place{
+    width:330px;
+    backgroubd:rgba(255,255,255,0.12);
+    backdrop-filter:blur(10px);
+    border-radius:20px;
+    overflow:hidden;
+    transition:0.4s;
+    box-shadow:0 10px 25px rgba(0,0,0,.4);
+    cursor:pointer;
+}
+.place:hover{
+    transform:translateY(-12px) scale(1.03);
+    box-shadow:0 20px 40px rgba(0,0,0,.4);
+}
+.place img{
+    width:100%;
+    height:230px;
+    object-fit:cover;
+    transition:transform 0.4s ease;
+
+}
+.place:hover img{
+    transform:scale(1.08);
+}
+.place h1{
+    margin:20px 0 10px;
+    font-size:32px;
+}
+.place h2{
+    transition: color 0.3s ease;
+}
+.place:hover h2{
+    color:gold;
+}
+.place p{
+    padding:0 20px 25px;
+    line-height:1.7;
+    font-size:17px;
+}
+.place p{
+    transition:tranform 0.3s ease;
+}
+.place:hover p{
+    transform:translateY(-5px);
+}
