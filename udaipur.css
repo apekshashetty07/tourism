@@ -77,7 +77,7 @@ body{
     transition: color 0.3s ease;
 }
 .place:hover h2{
-    color:gold;
+    color:rgb(13, 12, 8);
 }
 .place p{
     padding:0 20px 25px;
